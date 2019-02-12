@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.feba.listfragment.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_fav"
+        android:orderInCategory="10"
+        android:title="Add to Fav"
+        android:icon="@drawable/ic_action_fav"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_backup"
+        android:orderInCategory="150"
+        android:title="Backup"
+        android:icon="@drawable/ic_action_backup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="101"
+        android:title="Email"
+        android:icon="@drawable/ic_action_email"
+        app:showAsAction="ifRoom" />
+</menu>
